@@ -168,7 +168,7 @@ class Plugin_Name {
 
         $this->loader->add_action('wp_enqueue_scripts', $plugin_public, 'enqueue_styles');
         $this->loader->add_action('wp_enqueue_scripts', $plugin_public, 'enqueue_scripts');
-        add_shortcode('foobar', array($this, 'foobar_func'));
+        add_shortcode('bagdb', array($this, 'show_databaseBlock'));
     }
 
     public function show_databaseBlock($atts) {

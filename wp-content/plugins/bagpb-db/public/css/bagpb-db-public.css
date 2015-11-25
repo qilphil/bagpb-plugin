@@ -9,3 +9,19 @@
 #bagdbTable_wrapper select {
     font-size:12px; 
 }
+#bagSingle {font-size:14px;}
+#bagSingle .bagDataName {
+    float:left;
+    width:30%;
+    font-weight: bold;
+}
+#bagSingle .bagDataName label:after {
+    content:":";
+}
+#bagSingle .bagDataValue {
+    float:left;
+    width:65%;
+}
+#bagdbTable_wrapper .highlight {
+    background-color: #eee;
+}
